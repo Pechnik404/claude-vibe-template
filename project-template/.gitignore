@@ -1,0 +1,52 @@
+# Секреты
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+.secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+venv/
+.venv/
+env/
+
+# Базы данных и временные файлы
+*.db
+*.sqlite
+*.sqlite3
+*.log
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+.docker-data/
+
+# AI-журналы (если решено не коммитить — раскомментировать)
+# LAB_JOURNAL.md
+# RESEARCH_LOG.md
+
+# Локальные настройки Claude Code (settings.local.json — для индивидуальных переопределений)
+.claude/settings.local.json
+.claude/.cache/

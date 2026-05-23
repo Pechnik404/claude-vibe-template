@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/mcp",
+  "_comment": "MCP-серверы для project-template. Минимальный набор. Дополнительные подключаются через профиль.",
+
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "description": "Чтение/запись файлов проекта"
+    },
+
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "description": "Актуальная документация библиотек — ОБЯЗАТЕЛЬНЫЙ против дрейфа"
+    },
+
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "description": "Пошаговое рассуждение для сложных задач"
+    },
+
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PAT}"
+      },
+      "description": "Issues, PR, CI status"
+    },
+
+    "postgres-readonly": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "${POSTGRES_READONLY_URL}"
+      ],
+      "description": "SQL-верификация без риска модификации (только SELECT)"
+    },
+
+    "chrome": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/chrome-mcp"],
+      "description": "Управление браузером: скриншоты, парсинг, авто-тесты UI",
+      "_when": "Опционально. Подключать когда нужно тестировать UI вашего же проекта или парсить веб-страницы."
+    }
+  }
+}

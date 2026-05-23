@@ -1,0 +1,45 @@
+# Автоматическая нормализация переводов строк
+# Стандарт Microsoft/GitHub: https://docs.github.com/repositories/working-with-files/configuring-git-to-handle-line-endings
+
+# По умолчанию — auto: git сам определит текстовые файлы и нормализует
+* text=auto
+
+# Принудительно LF (Unix) — файлы, которые исполняются в Linux/WSL/Docker
+*.sh        text eol=lf
+*.bash      text eol=lf
+Makefile    text eol=lf
+makefile    text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+Dockerfile  text eol=lf
+
+# Принудительно CRLF (Windows) — файлы, которые исполняются в cmd.exe
+*.cmd       text eol=crlf
+*.bat       text eol=crlf
+*.ps1       text eol=crlf
+
+# Текст в обычной кодировке (нормализация по auto)
+*.md        text
+*.txt       text
+*.py        text
+*.json      text
+*.toml      text
+*.cfg       text
+*.ini       text
+*.env*      text
+
+# Бинарные файлы — не трогать
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.pdf       binary
+*.zip       binary
+*.tar.gz    binary
+*.db        binary
+*.sqlite    binary
+*.sqlite3   binary
+*.xlsx      binary
+*.docx      binary
+*.pptx      binary
