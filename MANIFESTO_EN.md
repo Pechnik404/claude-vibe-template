@@ -103,6 +103,16 @@ Anthropic will earn billions on accessible AI. That's fine. We get **friendly AI
 
 ---
 
+## 🌟 Open call
+
+Send your pain points. Connect to the project. Translate to your language. Star the repo if it resonates.
+
+**Let's make the world a little better — and a little friendlier — together.**
+
+→ [Open an issue](https://github.com/Pechnik404/claude-vibe-template/issues/new/choose) · [Discussions](https://github.com/Pechnik404/claude-vibe-template/discussions) · [Fork & contribute](https://github.com/Pechnik404/claude-vibe-template)
+
+---
+
 ## Contacts
 
 - GitHub: https://github.com/Pechnik404

@@ -103,6 +103,16 @@ Anthropic заработает миллиарды на доступных AI. Э
 
 ---
 
+## 🌟 Открытый зов
+
+Присылайте свои боли. Подключайтесь к проекту. Переводите на свой язык. Ставьте звезду, если откликается.
+
+**Сделаем мир чуть лучше — и чуть приветливее — вместе.**
+
+→ [Открыть issue](https://github.com/Pechnik404/claude-vibe-template/issues/new/choose) · [Discussions](https://github.com/Pechnik404/claude-vibe-template/discussions) · [Форкнуть и улучшить](https://github.com/Pechnik404/claude-vibe-template)
+
+---
+
 ## Контакты
 
 - GitHub: https://github.com/Pechnik404

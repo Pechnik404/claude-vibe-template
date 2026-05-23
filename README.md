@@ -129,6 +129,22 @@ Both paths are better than silent drift.
 
 ---
 
+## 🌟 Join us — make AI friendlier for everyone
+
+This project lives or dies on community input. If you:
+
+- 💢 **Have a pain point** with Claude / Cursor / Copilot that should be solved → [open an issue](https://github.com/Pechnik404/claude-vibe-template/issues/new/choose)
+- 🛠 **Have a working solution / profile / skill** that helps non-developers → send a PR
+- 📖 **Have a story** of how the technical wall stopped you → share in Discussions
+- ❤️ **Just resonate with the idea** → star the repo, that's the signal we matter
+- 🌍 **Want to translate** docs to your language → PRs especially welcome
+
+**No experience required.** The whole point of this project is that **you shouldn't need to be a developer** to help build it. Issues in plain English (or any language) are welcome — AI can translate.
+
+**Let's make the world a little better — and a little friendlier — for everyone with ideas.**
+
+---
+
 ## Compatibility
 
 | Platform | Status |
